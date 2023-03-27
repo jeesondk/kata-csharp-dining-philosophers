@@ -8,8 +8,8 @@ public class Fork
         return _mutex.WaitOne(60000);
     }
 
-    public object PutDown()
+    public void PutDown()
     {
-        throw new NotImplementedException();
+        _mutex.ReleaseMutex();
     }
 }
