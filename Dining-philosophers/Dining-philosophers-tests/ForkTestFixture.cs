@@ -1,4 +1,5 @@
 ﻿using Dining_philosophers;
+using Microsoft.VisualBasic;
 
 namespace Dining_philosophers_tests;
 
@@ -12,6 +13,13 @@ public class ForkTestFixture
     }
     
     public Fork Fork => _fork;
-    
+
+    public void ForkThreadProc()
+    {
+        for (var i = 0; i < 2; i++)
+        {
+            _fork.PickUp();
+        }
+    }
     
 }

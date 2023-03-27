@@ -2,14 +2,19 @@
 
 public class Fork
 {
-    private static readonly Mutex _mutex = new(); 
+    private readonly Mutex _mutex = new(); 
     public bool PickUp()
     {
-        return _mutex.WaitOne(60000);
+        return _mutex.WaitOne(100);
     }
 
     public void PutDown()
     {
         _mutex.ReleaseMutex();
+    }
+
+    ~Fork()
+    {
+        _mutex.Dispose();
     }
 }
