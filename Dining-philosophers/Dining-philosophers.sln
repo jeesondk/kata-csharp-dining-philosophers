@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dining-philosophers", "Dining-philosophers\Dining-philosophers.csproj", "{1FB8B552-2691-4F5D-A6A4-0498818E1C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dining-philosophers-tests", "Dining-philosophers-tests\Dining-philosophers-tests.csproj", "{B00E1665-5A38-4316-B2C5-5DCC4E465605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FB8B552-2691-4F5D-A6A4-0498818E1C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB8B552-2691-4F5D-A6A4-0498818E1C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB8B552-2691-4F5D-A6A4-0498818E1C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB8B552-2691-4F5D-A6A4-0498818E1C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00E1665-5A38-4316-B2C5-5DCC4E465605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00E1665-5A38-4316-B2C5-5DCC4E465605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00E1665-5A38-4316-B2C5-5DCC4E465605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00E1665-5A38-4316-B2C5-5DCC4E465605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
