@@ -3,12 +3,8 @@ using FluentAssertions;
 
 namespace Dining_philosophers_tests;
 
-public class ForkTests:IClassFixture<ForkTestFixture>
+public class ForkTests
 {
-    private readonly ForkTestFixture _fixture;
-
-
-    
     [Fact]
     void CanPickUpFork()
     {
